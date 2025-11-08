@@ -39,11 +39,5 @@
         "typo3/cms-tstemplate": "13.4.1",
         "typo3/cms-viewpage": "13.4.1",
         "typo3/cms-webhooks": "13.4.1"
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./packages/*"
-        }
-    ]
+    }
 }
