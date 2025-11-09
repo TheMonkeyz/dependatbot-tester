@@ -23,10 +23,14 @@ jobs:
       - name: Update composer
         run: composer update --prefer-dist --no-interaction
 
+      - name: Get TYPO3 core version
+        id: get_version
+        run: echo "TYPO3_VERSION=$(jq -r '.packages[] | select(.name=="typo3/cms-core") | .version' composer.lock)" >> $GITHUB_ENV
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: 'chore(deps): update composer dependencies'
-          title: 'Update composer dependencies'
-          body: 'This PR updates the composer dependencies.'
-          branch: 'chore/update-composer-dependencies'
+          commit-message: 'chore(deps): update TYPO3 core to ${{ env.TYPO3_VERSION }}'
+          title: 'Update TYPO3 core to ${{ env.TYPO3_VERSION }}'
+          body: 'This PR updates TYPO3 core and other composer dependencies.'
+          branch: 'chore/update-typo3-core-${{ env.TYPO3_VERSION }}'
