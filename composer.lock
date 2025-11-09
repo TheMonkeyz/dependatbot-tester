@@ -5092,7 +5092,7 @@
         },
         {
             "name": "typo3/cms-backend",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/backend.git",
@@ -5108,7 +5108,7 @@
                 "ext-intl": "*",
                 "ext-libxml": "*",
                 "psr/event-dispatcher": "^1.0",
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5174,7 +5174,7 @@
         },
         {
             "name": "typo3/cms-belog",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/belog.git",
@@ -5187,7 +5187,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5232,7 +5232,7 @@
         },
         {
             "name": "typo3/cms-beuser",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/beuser.git",
@@ -5245,7 +5245,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5398,7 +5398,7 @@
         },
         {
             "name": "typo3/cms-core",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/core.git",
@@ -5543,7 +5543,7 @@
         },
         {
             "name": "typo3/cms-dashboard",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/dashboard.git",
@@ -5556,11 +5556,11 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-backend": "13.4.1",
-                "typo3/cms-core": "13.4.1",
-                "typo3/cms-extbase": "13.4.1",
-                "typo3/cms-fluid": "13.4.1",
-                "typo3/cms-frontend": "13.4.1"
+                "typo3/cms-backend": "13.4.19",
+                "typo3/cms-core": "13.4.19",
+                "typo3/cms-extbase": "13.4.19",
+                "typo3/cms-fluid": "13.4.19",
+                "typo3/cms-frontend": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5606,7 +5606,7 @@
         },
         {
             "name": "typo3/cms-extbase",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/extbase.git",
@@ -5625,7 +5625,7 @@
                 "symfony/dependency-injection": "^7.2",
                 "symfony/property-access": "^7.2",
                 "symfony/property-info": "^7.2",
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5676,7 +5676,7 @@
         },
         {
             "name": "typo3/cms-extensionmanager",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/extensionmanager.git",
@@ -5690,7 +5690,7 @@
             },
             "require": {
                 "ext-libxml": "*",
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5742,7 +5742,7 @@
         },
         {
             "name": "typo3/cms-felogin",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/felogin.git",
@@ -5755,7 +5755,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5800,7 +5800,7 @@
         },
         {
             "name": "typo3/cms-filelist",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/filelist.git",
@@ -5813,7 +5813,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5860,7 +5860,7 @@
         },
         {
             "name": "typo3/cms-fluid",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/fluid.git",
@@ -5874,8 +5874,8 @@
             },
             "require": {
                 "symfony/dependency-injection": "^7.2",
-                "typo3/cms-core": "13.4.1",
-                "typo3/cms-extbase": "13.4.1",
+                "typo3/cms-core": "13.4.19",
+                "typo3/cms-extbase": "13.4.19",
                 "typo3fluid/fluid": "^4.4.3"
             },
             "conflict": {
@@ -5924,7 +5924,7 @@
         },
         {
             "name": "typo3/cms-fluid-styled-content",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/fluid_styled_content.git",
@@ -5937,9 +5937,9 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1",
-                "typo3/cms-fluid": "13.4.1",
-                "typo3/cms-frontend": "13.4.1"
+                "typo3/cms-core": "13.4.19",
+                "typo3/cms-fluid": "13.4.19",
+                "typo3/cms-frontend": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -5984,7 +5984,7 @@
         },
         {
             "name": "typo3/cms-form",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/form.git",
@@ -5999,8 +5999,8 @@
             "require": {
                 "psr/http-message": "^1.1 || ^2.0",
                 "symfony/expression-language": "^7.2",
-                "typo3/cms-core": "13.4.1",
-                "typo3/cms-frontend": "13.4.1"
+                "typo3/cms-core": "13.4.19",
+                "typo3/cms-frontend": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6050,7 +6050,7 @@
         },
         {
             "name": "typo3/cms-frontend",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/frontend.git",
@@ -6064,7 +6064,7 @@
             },
             "require": {
                 "ext-libxml": "*",
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6120,7 +6120,7 @@
         },
         {
             "name": "typo3/cms-impexp",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/impexp.git",
@@ -6133,7 +6133,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6178,7 +6178,7 @@
         },
         {
             "name": "typo3/cms-info",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/info.git",
@@ -6191,7 +6191,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6239,7 +6239,7 @@
         },
         {
             "name": "typo3/cms-install",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/install.git",
@@ -6257,9 +6257,9 @@
                 "nikic/php-parser": "^5.4.0",
                 "symfony/finder": "^7.2",
                 "symfony/http-foundation": "^7.2",
-                "typo3/cms-core": "13.4.1",
-                "typo3/cms-extbase": "13.4.1",
-                "typo3/cms-fluid": "13.4.1"
+                "typo3/cms-core": "13.4.19",
+                "typo3/cms-extbase": "13.4.19",
+                "typo3/cms-fluid": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6307,7 +6307,7 @@
         },
         {
             "name": "typo3/cms-reactions",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/reactions.git",
@@ -6320,7 +6320,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6365,7 +6365,7 @@
         },
         {
             "name": "typo3/cms-recycler",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/recycler.git",
@@ -6378,7 +6378,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6426,7 +6426,7 @@
         },
         {
             "name": "typo3/cms-rte-ckeditor",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/rte_ckeditor.git",
@@ -6439,7 +6439,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6487,7 +6487,7 @@
         },
         {
             "name": "typo3/cms-seo",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/seo.git",
@@ -6500,9 +6500,9 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1",
-                "typo3/cms-extbase": "13.4.1",
-                "typo3/cms-frontend": "13.4.1"
+                "typo3/cms-core": "13.4.19",
+                "typo3/cms-extbase": "13.4.19",
+                "typo3/cms-frontend": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6550,7 +6550,7 @@
         },
         {
             "name": "typo3/cms-setup",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/setup.git",
@@ -6563,7 +6563,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6608,7 +6608,7 @@
         },
         {
             "name": "typo3/cms-sys-note",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/sys_note.git",
@@ -6621,7 +6621,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6669,7 +6669,7 @@
         },
         {
             "name": "typo3/cms-tstemplate",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/tstemplate.git",
@@ -6682,7 +6682,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6727,7 +6727,7 @@
         },
         {
             "name": "typo3/cms-viewpage",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/viewpage.git",
@@ -6740,7 +6740,7 @@
                 "shasum": ""
             },
             "require": {
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
@@ -6785,7 +6785,7 @@
         },
         {
             "name": "typo3/cms-webhooks",
-            "version": "v13.4.1",
+            "version": "v13.4.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3-CMS/webhooks.git",
@@ -6799,7 +6799,7 @@
             },
             "require": {
                 "symfony/uid": "^7.2",
-                "typo3/cms-core": "13.4.1"
+                "typo3/cms-core": "13.4.19"
             },
             "conflict": {
                 "typo3/cms": "*"
