@@ -4,17 +4,17 @@ inputs:
   package-name:
     description: 'The name of the main package to use for versioning the PR (e.g., "typo3/cms-core").'
     required: true
-  php-version:
-    description: 'The PHP version to use for the setup.'
-    required: false
-    default: '8.2'
 runs:
   using: "composite"
   steps:
+    - name: Get PHP version from composer.json
+      id: get_php_version
+      shell: bash
+      run: echo "PHP_VERSION=$(jq -r '.config.platform.php' composer.json)" >> $GITHUB_ENV
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: ${{ inputs.php-version }}
+        php-version: ${{ env.PHP_VERSION }}
     - name: Update composer
       shell: bash
       run: composer update --prefer-dist --no-interaction

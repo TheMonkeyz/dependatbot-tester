@@ -19,4 +19,3 @@ jobs:
         uses: ./.github/actions/composer-updater
         with:
           package-name: 'typo3/cms-core'
-          php-version: '8.2'
